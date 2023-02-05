@@ -198,7 +198,7 @@ iframe{
   background-color: white;
   padding: 10px;
 } */
-table{
+/* table{
   border: 2px solid;
   border-color: rgb(211, 210, 210) white rgb(211, 210, 210) white;
   border-collapse: collapse;
@@ -207,7 +207,7 @@ table{
 }
 th, td{
   /* border:1px solid black; */
-  height:4em;
+  /* height:4em;
   background-color: rgb(255, 255, 255);
 }
 .th-service{
@@ -218,6 +218,53 @@ th, td{
 }
 .th-description{
   width:70%;
+} */ 
+
+
+/* Services page */
+.services-allboxes{
+  display:flex;
+  flex-direction: column;
+  width:90%;
+  margin:100px auto;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+}
+.s-header {
+  display:flex;
+  width: 100%;
+  height:400px;
+  background-image: url(../img/water-1761027.jpg);
+  justify-content:center;
+  align-items: center;
+}
+.layout-services {
+  display:flex;
+  justify-content:space-evenly;
+}
+.s-column {
+  width:40%;
+  text-align:center;
+  justify-items: center;
+  align-items: center;
+}
+.s-btn {
+  width:150px;
+  height:30px;
+  background-color:rgb(94, 156, 115);
+  border-radius:10px;
+  /* justify-self:center; */
+  /* text-justify: center; */
+  text-align:center;
+  padding:10px 0 0 0;
+  color:white;
+  font-weight: bold;
+}
+.s-btn-position{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 
