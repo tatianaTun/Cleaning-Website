@@ -243,9 +243,9 @@ th, td{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
-.s-h2{
-  font-size:3em;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.s-h2 {
+  font-size: 3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .s-text {
   width: 80%;
@@ -309,33 +309,33 @@ th, td{
 .item1 {
   grid-area: header;
   justify-content: center;
-  text-align:center;
+  text-align: center;
 }
 .item2 {
   grid-area: main;
   justify-self: center;
-  text-align:center;
+  text-align: center;
 }
 .item3 {
   grid-area: main2;
   justify-self: center;
-  text-align:center;
+  text-align: center;
 }
 .item4 {
   grid-area: main3;
   justify-self: center;
-  text-align:center;
+  text-align: center;
 }
 .item5 {
   grid-area: main4;
   justify-self: center;
-  text-align:center;
+  text-align: center;
 }
 .item6 {
   grid-area: main5;
   justify-self: center;
   margin: 0 0 20px 0;
-  text-align:center;
+  text-align: center;
 }
 .item7 {
   grid-area: right;
@@ -346,7 +346,7 @@ th, td{
   margin: 30px 0 0 0;
 }
 fieldset {
-  display:block;
+  display: block;
   border: none;
   margin: 0;
   padding: 0;

@@ -17,12 +17,10 @@
       <div class="top-box">
         <div class="menu-icon"><img src="./img/menu.png" /></div>
         <div class="top-links">
-          <div class="pgs-links">
-            <a href="./index.html">HOME</a>
-          </div>
-          <div class="pgs-links"><a href="./page2.html">BLOG</a></div>
-          <div class="pgs-links"><a href="./page3.html">PRICING</a></div>
-          <div class="pgs-links"><a href="./page4.html">CONTACT US</a></div>
+          <div class="pgs-links"><a href="./index.html">HOME</a></div>
+          <div class="pgs-links"><a href="./blog.html">BLOG</a></div>
+          <div class="pgs-links"><a href="./services.html">PRICING</a></div>
+          <div class="pgs-links"><a href="./contact.html">CONTACT US</a></div>
         </div>
         <div class="call-top">
           <div class="call-icon"><img src="./img/call-icon.png" /></div>
@@ -33,19 +31,29 @@
         </div>
       </div>
     </header>
-    <div class=" form-container">
+    <div class="form-container">
       <h1 class="contact-h1 main-header">GET IN TOUCH</h1>
-      <form action="./index.html" class="grid-container">
+      <form action="./thankyou.html" class="grid-container">
         <div class="item1">
           <h2>Get Started Today!</h2>
-        <p>Have a question? Feel free to fill out the form below or email us. One of our representatives will reach out to you soon. </p>
-        <p>Want to get a quote for a service? You can schedule an appointment for a consultation or call our office directly at 777-777-7777.</p>
-      </div>
-        <fieldset class=" item2">
+          <p>
+            Have a question? Feel free to fill out the form below or email us.
+            One of our representatives will reach out to you soon.
+          </p>
+          <p>
+            Want to get a quote for a service? You can schedule an appointment
+            for a consultation or call our office directly at 777-777-7777.
+          </p>
+        </div>
+        <fieldset class="item2">
           <h3>PERSONAL INFORMATION</h3>
           <p>
             <label for="first-name">First Name:</label>
-            <input type="text" name="first-name" placeholder="Your First Name" />
+            <input
+              type="text"
+              name="first-name"
+              placeholder="Your First Name"
+            />
           </p>
           <!-- use <p> instead of <br> -->
           <p>
@@ -53,11 +61,15 @@
             <input type="text" name="lastname" placeholder="Your Last Name" />
           </p>
           <p>
-            <label for="email">Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <label for="email"
+              >Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label
+            >
             <input type="email" name="email" placeholder="Email" />
           </p>
           <p>
-            <label for="phone">Phone:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <label for="phone"
+              >Phone:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label
+            >
             <input type="text" name="phone" placeholder="Contact Phone" />
           </p>
         </fieldset>
@@ -90,16 +102,17 @@
             4
           </p>
         </fieldset>
-        <fieldset  class="item5">
+        <fieldset class="item5">
           <h3 for="subject">MESSAGE</h3>
           <!-- for accessibility, can use either h3 or label -->
           <p>
-            <textarea class="mg-box"
+            <textarea
+              class="mg-box"
               name="subject"
               placeholder="Your message..."
-              minlength = "30"
+              minlength="30"
               rows="7"
-              cols = "20"
+              cols="20"
             ></textarea>
           </p>
         </fieldset>
