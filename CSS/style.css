@@ -345,6 +345,11 @@ th, td{
 .top-margin {
   margin: 30px 0 0 0;
 }
+input[type="text"],
+input[type="email"] {
+  border: 2px solid rgb(182, 174, 174);
+  border-radius: 10px;
+}
 fieldset {
   display: block;
   border: none;
@@ -363,6 +368,8 @@ fieldset {
   justify-content: center;
 }
 textarea {
+  border: 2px solid rgb(182, 174, 174);
+  border-radius: 10px;
   overflow: auto; /* for the scroll in the message box */
   -webkit-tap-highlight-color: transparent;
 }
